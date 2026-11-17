@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="welcomeScreen">
+
+        <div class="welcome-sparkles">
+            <span>✨</span>
+            <span>⭐</span>
+            <span>✨</span>
+            <span>🌟</span>
+            <span>✨</span>
+        </div>
+      
+      <div class="welcome-hearts">
+        <span>❤️</span>
+        <span>💕</span>
+        <span>💖</span>
+        <span>💗</span>
+        <span>❤️</span>
+    </div>
+
+    <h1>😎 Hey, Rowdy Hero! ❤️‍🔥</h1>
+
+    <h2>Something Special Is Waiting For You!</h2>
+
+    <p>A little surprise made with lots of memories ❤️</p>
+
+    <button id="enterButton" onclick="enterSurprise()">
+        Enter Surprise 🎁
+    </button>
+
+
+</div>
+
+    <div class="container">
+        
+<audio id="birthdayMusic" loop>
+    <source src="music/him&i.mp3.mp3" type="audio/mpeg">
+</audio>
+
+
+        <div class="hearts">
+             <span>❤️</span>
+             <span>💕</span>
+            <span>❤️</span>
+            <span>💖</span>
+            <span>💕</span>
+        </div>
+
+        <h1>Hey Rowdy Hero! 😎❤️‍🔥</h1>
+
+        <h2>Something Special Is Waiting For You</h2>
+
+        <p>Countdown to your birthday 🎂</p>
+
+        <div id="countdown">
+            Loading...
+        </div>
+
+        <button id="surpriseBtn">
+            Open Your Surprise ❤️
+        </button>
+        
+<div id="surpriseSection" style="display: none;">
+    <h2>🎉 Happy Birthday, Rowdy Hero! 🎂</h2>
+    <p>Today is all about YOU! 😎❤️‍🔥</p>
+    <p>Get ready for a special surprise!</p>
+
+    <div class="envelope-section">
+    <h2>💌 A Secret Surprise For You!</h2>
+    <p>Hey Rowdy Hero, you have a special message!</p>
+
+    <button id="envelopeBtn">
+        💌 Open Your Surprise
+    </button>
+
+    <div id="secretMessage" style="display: none;">
+        <h2>❤️‍🔥 A Special Message</h2>
+        <p id="typingMessage"></p>
+        <div class="big-heart">❤️</div>
+        <button id="finalWishBtn">One Last Surprise 🎁</button>
+
+        <p id="finalWish" style="display: none;">
+            You deserve all the happiness in the world!
+            Keep shining, Rowdy Hero! 😎❤️‍🔥
+        </p>
+    </div>
+</div>
+
+<div class="birthday-letter">
+    <h2>💌 A Little Message For You</h2>
+
+    <p>
+        Hey Rowdy Hero! 😎❤️‍🔥
+    </p>
+
+    <p>
+        You are officially getting older,
+        but don't worry, your craziness is still the same! 😂
+    </p>
+
+    <p>
+        May your birthday bring endless happiness,
+        success, laughter and beautiful memories.
+    </p>
+
+    <p>
+        Keep smiling, keep shining and always stay the
+        amazing person you are! ❤️
+    </p>
+
+    <h3>With lots of wishes! 🎂❤️</h3>
+</div>
+<div class="memories-section">
+    <h2>📸 Our Beautiful Memories</h2>
+    <p>Some moments are always special! ❤️</p>
+
+    <div class="memory-gallery">
+
+    <div class="memory-card">
+    <img src="photos/gallery1.jpg.jpg" alt="Memory 1">
+    <p>Memory 1 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery2.jpg.jpg" alt="Memory 2">
+    <p>Memory 2 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery3.jpg.jpg" alt="Memory 3">
+    <p>Memory 3 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery4.jpg.jpg" alt="Memory 4">
+    <p>Memory 4 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery5.jpg.jpg" alt="Memory 5">
+    <p>Memory 5 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery6.jpg.jpg" alt="Memory 6">
+    <p>Memory 6 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery7.jpg.jpg" alt="Memory 7">
+    <p>Memory 7 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery8.jpg.jpg" alt="Memory 8">
+    <p>Memory 8 ❤️</p>
+</div>
+
+<div class="memory-card">
+    <img src="photos/gallery9.jpg.jpg" alt="Memory 9">
+    <p>Memory 9 ❤️</p>
+</div>
+
+
+</div>
+
+<div class="cake-section">
+    <h2>🎂 Birthday Cake Time!</h2>
+
+    <div class="cake">🎂</div>
+
+    <p>Make a wish, Rowdy Hero! ✨</p>
+
+    <button id="wishBtn">Make a Wish ❤️</button>
+
+    <p id="wishMessage" style="display: none;">
+        May all your dreams come true! ❤️‍🔥
+    </p>
+    <div id="fireworks" style="display: none;">
+        🎆 ✨ 🎇 ✨ 🎆
+    </div>
+</div>
+
+
+</div>
+
+    <div class="slideshow-section">
+    <h2>📸 Special Memories</h2>
+    <p>Every moment has a beautiful story! ❤️</p>
+
+    <div class="slideshow-hearts">✨ 💕 🫠 💋 ✨</div>
+
+    <div class="slideshow-card">
+        <img id="slideContent" src="photos/photo1.jpeg.jpg" alt="Memory 1">
+        <p id="slideCaption">❤️ Beautiful Memories ❤️</p>
+        <p class="memory-message">
+            Every picture holds a little piece of happiness! ❤️
+        </p>
+        <div class="heart-divider">❤️ ━━━━━ 💕 ━━━━━ ❤️</div>
+        <button onclick="restartSlideshow()">Replay Memories ❤️</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
